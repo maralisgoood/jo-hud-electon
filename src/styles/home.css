@@ -1,0 +1,74 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #003585;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 1px 2px 5px #000;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+
+h1 span {
+  text-transform: lowercase;
+  font-weight: 500;
+}
+
+.bannerBtns {
+  margin-top: 40px;
+  width: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannerBtns button {
+  font-size: 15px;
+  font-weight: 600;
+  height: 50px;
+  width: 145px;
+  border-radius: 25px;
+  border: none;
+}
+
+button.whiteBtn {
+  color: #003585;
+}
+
+button.greenBtn {
+  color: #a7f65c;
+  background-color: #003585;
+  border: 1px solid #a7f65c;
+}
+
+.bannerContent {
+  position: relative;
+}
+
+.bannerContent img {
+  margin-top: 50px;
+  height: 535px;
+}
+
+.specialPrice {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 65%;
+  right: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #a7f65c;
+  color: #003585;
+}
+
+.specialPrice h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
