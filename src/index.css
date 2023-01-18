@@ -11,5 +11,10 @@
     margin: auto;
     max-width: 1440px;
     width: 100%;
-    background-color: aqua;
+}
+
+.content {
+    margin: auto;
+    max-width: 1315px;
+    width: 100%;
 }

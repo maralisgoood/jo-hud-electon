@@ -1,4 +1,12 @@
-category = ["appliances", "computers & tablets", "gaming console", "telescope"];
+export const CATEGORIES = [
+    {name: "Cameras", url: "/cameras"},
+    {name: "Laptops", url: "/laptops"},
+    {name: "Tablets", url: "/tablets"},
+    {name: "Mouse", url: "/mouse"},
+    {name: "Sale", url: "/sale"}
+];
+
+// category = ["appliances", "computers & tablets", "gaming console", "telescope"];
 
 const data = [
     {

@@ -13,13 +13,13 @@ export default function Header() {
             <div className="btns">
                 <div className="sign-in">
                     <a href="#">
-                        <span><img src="./images/sign-in.svg" alt="sign-in" /></span>
+                        <span><img src="./images/icon-signin.svg" alt="icon-signin" /></span>
                         Sign In
                     </a>
                 </div>
                 <div className="card-in">
                     <a href="#">
-                        <span><img src="./images/card-in.svg" alt="card-in" /></span>
+                        <span><img src="./images/icon-cardin.svg" alt="icon-cardin" /></span>
                         <span className='counter'>0</span>
                     </a>
                 </div>
