@@ -13,10 +13,10 @@ export default function Home() {
         <div className="container">
             <Header />
             <Banner />
-            <Popular/>
-            <Ad/>
-            <Special/>
-            <Brands/>
+            <Popular />
+            <Ad />
+            <Special />
+            <Brands />
             <Footer />
         </div>
     );

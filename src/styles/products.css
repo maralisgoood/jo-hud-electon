@@ -1,4 +1,5 @@
-.products {
+.products,
+.popularProducts {
   margin: 50px 0;
   width: 100%;
   gap: 18px;
@@ -88,4 +89,16 @@
 .card img {
   width: 18px;
   height: 18px;
+}
+
+button.seeMoreBtn {
+  /* color: #a7f65c; */
+  color: #fff;
+  background-color: #003585;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

@@ -1,11 +1,12 @@
 import '../styles/products.css';
 import { productsData } from '../util/data';
 
-export default function Products() {
+export default function Products(prop) {
+
     return (
         <div className="products">
-            {productsData.slice(0, 8).map((product, i) => {
-                return <div key={i} className="singleProduct">
+            {productsData.map((product, index) => {
+                return <div key={index} className="singleProduct">
                     <img src={product.image} />
                     <div className="proBottom">
                         <div className="proText">
@@ -23,7 +24,6 @@ export default function Products() {
                     </div>
                 </div>
             })}
-            <button>See More &#8681;</button>
         </div>
     );
 }
